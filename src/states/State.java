@@ -50,4 +50,39 @@ public class State {
 	public boolean BOAT_on_right(){
 		return locations[6];
 	}
+
+	public String wifeA_side() {
+		if (locations[0] = false) return "Left";
+		else return "Right";
+	}
+
+	public String husbandA_side() {
+		if (locations[1] = false) return "Left";
+		else return "Right";
+	}
+	
+	public String wifeB_side() {
+		if (locations[2] = false) return "Left";
+		else return "Right";
+	}
+	
+	public String husbandB_side() {
+		if (locations[3] = false) return "Left";
+		else return "Right";
+	}
+	
+	public String wifeC_side() {
+		if (locations[4] = false) return "Left";
+		else return "Right";
+	}
+	
+	public String husbandC_side() {
+		if (locations[5] = false) return "Left";
+		else return "Right";
+	}
+	
+	public String boat_side() {
+		if (locations[6] = false) return "Left";
+		else return "Right";
+	}
 }

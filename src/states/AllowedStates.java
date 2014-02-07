@@ -138,7 +138,6 @@ public class AllowedStates {
 	
 	
 	public void print_states(){
-		State some_state = new State();
 		
 		System.out.println(list_of_all_states.size());
 		System.out.println("wA    hA    wB    hB    wC    hC    Boat");
