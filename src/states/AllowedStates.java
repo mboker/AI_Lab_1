@@ -114,6 +114,10 @@ public class AllowedStates {
 		else return 1;
 	}
 	
+	/*
+	 * Recursively Create all states.  This is essentially done by creating a gray code, where the 0s and 1s in the code correspond
+	 * to left and right orientations in the Jealous Husbands Problem
+	 */
 	public ArrayList<State> all_possible_states(int position, State current_state){
 		ArrayList<State> list_to_return = new ArrayList<State>();
 		if(position == current_state.locations.length-1){

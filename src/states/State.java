@@ -23,12 +23,18 @@ public class State {
 		children_states.add(child);
 	}
 	
+	/*
+	 * For copying positions of states in AllowedStates generator
+	 */
 	public void copy_from(State source_state){
 		for (int i=0; i< locations.length; i++){
 			this.locations[i] = source_state.locations[i];
 		}
 	}
 	
+	/*
+	 * These functions are used in filtering allowed states, in the "husbandX_is_jealous" functions.
+	 */
 	public boolean wifeA_on_right(){
 		return locations[0];
 	}
